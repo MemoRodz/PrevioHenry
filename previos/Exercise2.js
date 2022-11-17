@@ -16,10 +16,9 @@ const obj_de_paises = {
     id_2: "Nigeria",
     id_3: "Nepal",
     id_4: "Colombia",
-    id_5: "Noruega",
+    id_5: "Noruega"
   };
-  ​
-  function paises_con_n(obj) {
+  ​function paises_con_n(obj) {
     // aquí tu code
     let respuesta = [];
     
