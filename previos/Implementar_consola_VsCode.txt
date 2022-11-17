@@ -1,0 +1,13 @@
+Implementar_consola_VsCode
+
+Code Runner
+1. Instalar Code Runner
+2. Usar desde el play (lateral derecho superior)
+
+o
+
+Quokka
+1. Instalar quokka
+2. Ir a view (ver)
+3. Ir a pallette (paleta de comandos)
+4. Select --> Quokka.js: Start on Current File
