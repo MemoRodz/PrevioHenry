@@ -21,7 +21,17 @@ const obj_de_paises = {
   ​
   function paises_con_n(obj) {
     // aquí tu code
+    let respuesta = [];
     
-  }
+    for(const key in obj)
+    {
+      if(obj[key][0] === 'N')
+      {
+        respuesta.push(obj[key]);
+      }
+    }
+
+    return respuesta;
+  };
   console.log(paises_con_n(obj_de_paises));
   ​
