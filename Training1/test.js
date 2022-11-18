@@ -1,4 +1,4 @@
-var num = 9;
+let num = 9;
 console.log(num);
 
 function sum(a,b)
