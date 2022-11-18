@@ -16,8 +16,14 @@
     { dia: "jueves", debe: 342, haber: 2114, saldo: 0 },
     { dia: "viernes", debe: 22300, haber: 3490, saldo: 0 },
   ];
+
   function balance_diario(array) {
-   
-  }
-  
-  console.log(balance_diario(data_init));
+    let balance = 0;
+    for(let i = 0; i < array.length; i++)
+    {
+      array[i].saldo = array[i].haber - array[i].debe;
+    }
+    return array;
+   }
+
+console.log(balance_diario(data_init));

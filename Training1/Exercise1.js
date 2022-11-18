@@ -22,7 +22,7 @@ function cant_num_primos(array) {
       {
         if((array[i] % j) === 0)
         {
-          respuesta = respuesta + 1;
+          respuesta++;
         }
       }
     }

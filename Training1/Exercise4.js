@@ -13,8 +13,18 @@ const num_enteros1 = [5, 6, 78];
 const num_enteros2 = [4, 8, 12, 31, 8, 10];
 function doble_bucle(arr) {
   // tu code aquí
- 
+  for (let i = 0; i < arr.length; i++)
+  {
+    for ( let j = i + 1; j < arr.length; j++)
+    {
+      console.log('i: ', arr[i],' j: ', arr[j]);
+      if(arr[i] === arr[j])
+      {
+        return true;
+      }
+    }
+  }
+  return false;
 }
 console.log(doble_bucle(num_enteros1));
 console.log(doble_bucle(num_enteros2));
-​
