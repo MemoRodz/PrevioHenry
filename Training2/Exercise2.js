@@ -18,10 +18,9 @@
   ];
 
   function balance_diario(array) {
-    let balance = 0;
-    for(let i = 0; i < array.length; i++)
+    for ( const element of array)
     {
-      array[i].saldo = array[i].haber - array[i].debe;
+      element.saldo = element.haber - element.debe;
     }
     return array;
    }

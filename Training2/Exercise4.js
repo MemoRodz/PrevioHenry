@@ -16,7 +16,10 @@ const objeto_contain = {
 
 function invocar_metodo(obj, metodo) {
   // tu code aquí
-  return obj[metodo]();
+  if(obj.hasOwnProperty(metodo))
+  {
+    return obj[metodo]();
+  }
 
 }
 

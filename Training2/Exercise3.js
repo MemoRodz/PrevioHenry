@@ -14,13 +14,18 @@
   };
   
   function one(obj) {
-   
+   console.log(obj);
+   const new_obj = obj;
+   new_obj.moto = 2022;
   }
   one(obj_original);
   console.log(obj_original);
   
   function two(obj) {
-    
+    console.log(obj);
+    const new_obj2 = {...obj};
+    new_obj2.autito = 1213;
+    console.log(new_obj2);
   }
   two(obj_original);
   console.log(obj_original);
